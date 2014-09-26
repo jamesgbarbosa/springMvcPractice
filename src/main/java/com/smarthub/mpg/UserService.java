@@ -21,7 +21,10 @@ public class UserService {
     }
 
     public User getUserById(Long id) {
+        if(id == 1)
         return new User(1L,"James","Barbosa","MyEmail");
+        else
+        return null;
     }
 
 }
